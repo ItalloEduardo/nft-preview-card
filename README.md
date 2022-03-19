@@ -1,5 +1,6 @@
 # ◈ NFT Preview Card
 
+## ◇ Resumo:
 Esta foi minha primeira página web de verdade.
 Layout retirado do site [FrontEnd Mentor](https://www.frontendmentor.io/home). Resolvi deixá-lo arquivado aqui para que eu pudesse acompanhar minha própria evolução ao longo da minha jornada como Desenvolvedor.
 
