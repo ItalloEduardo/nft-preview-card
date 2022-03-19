@@ -1,0 +1,118 @@
+main{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    width: 300px;
+}
+.card .conteudoCard{
+    margin: 20px;
+}
+.card .conteudoCard .imagemNFT{
+    background: url(images/image-equilibrium.jpg);
+    background-size: 100% auto;
+    height: 250px;
+    border-radius: 10px;
+    transition: 0.6s ease-in-out;
+}
+.card .conteudoCard .hoverAzul{
+    cursor: pointer;
+    background-size: 100% auto;
+    height: 250px;
+    border-radius: 10px;
+    background-color:  hsl(178, 100%, 50%, 0.4);
+    opacity: 0;
+    transition: opacity .2s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card .conteudoCard .hoverAzul img{
+    width: fit-content;
+}
+.card .conteudoCard .hoverAzul:hover{
+    opacity: 1;
+}
+.textos h1{
+    cursor: pointer;
+    font-family: 'Outfit', sans-serif, 400;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    width: max-content;
+    margin: 20px 0px;
+    transition: 0.4s ease-in-out;
+}
+.textos h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+.textos p{
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+    /* margin: 10px; */
+}
+.card .container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+.card .container .preco{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.card .container .preco span{
+    color: hsl(178, 100%, 50%);
+    padding: 0px 5px;
+}
+.card .container .horario{
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+}
+.card .container .horario span{
+    margin: 0 5px;
+}
+.card .criador{
+    margin: 0 0px 20px;
+    display: flex;
+    align-items: center;
+}
+.card .criador img{
+    width: 30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+}
+.card .criador span{
+    color: hsl(215, 51%, 70%);
+    padding-left: 15px ;
+}
+.card .criador span a{
+    color: hsl(0, 0%, 100%);
+    transition: 0.4s ease-in-out;
+}
+.card .criador span a:hover{
+    color: hsl(178, 100%, 50%);
+}
+a{
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+footer{
+    font-family: 'Outfit', sans-serif;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    text-align: center;
+}
